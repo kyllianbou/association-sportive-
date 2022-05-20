@@ -15,6 +15,20 @@ export const Services = () => {
                 <hr></hr>
                 <section className="services_locations">
                     <h2>Nos produits à louer</h2>
+                    <article>
+                        <ul>
+
+                        </ul>
+                    </article>
+                </section>
+                <hr></hr>
+                <section className="services_prestations">
+                    <h2>Prestations encadrées</h2>
+                    <article>
+                        <ul>
+
+                        </ul>
+                    </article>
                 </section>
             </article>
         </div>

@@ -26,7 +26,7 @@
     text-underline-offset: 0.075em;
 }
 
-hr {
+.services hr {
     margin-top: 3em;
     text-align: center;
     width: 70%;
