@@ -1,0 +1,11 @@
+.headder{
+    background-image: url('../img/vague.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+ .headder h1{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
