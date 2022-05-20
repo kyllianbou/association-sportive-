@@ -3,12 +3,49 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
+    display: block;
 }
  .headder h1{
     color: white;
     text-align: center;
     padding-top: 300px;
 }
-.toto{
+.toto{  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 160px;
+}
+.art1{
+     gap: 20px;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.art2{
+    grid-column: 2/3;
+    gap: 20px;
     
+}
+.art3{
+    grid-column: 1 / 2;
+    gap: 20px;
+
+}
+.art4{
+    grid-column: 2/3;
+    grid-row: 2;
+    gap: 20px;
+}
+ .toto section{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.commentaire{
+    height: 10px;
+}
+.contact{
+    width: 100%;
+    height: 100%;
 }

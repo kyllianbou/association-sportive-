@@ -13,6 +13,14 @@ const contact = () => {
         </section>
         <section className='art2' >
         <h2>Formulaire de contact</h2>
+        <div className='contact' >
+        <input type="text" placeholder="prenom" />
+        <input type="text" placeholder="nom" />
+        <input type="email" id="email" name="email" autocomplete="email" aria-required="true" aria-invalid="true" placeholder="exemple.mul@internet.fr" />
+        <input type="tel" placeholder="tel:" pattern="[0-9]{10}"/>
+        <input type="text" placeholder="commentez!!" className='commentaire' />
+        <input type="submit" value="envoyer"/>
+        </div>
         </section>
         <section className='art3' >
         <h2>Horaires</h2>
@@ -23,7 +31,7 @@ const contact = () => {
         </section>
         <section className='art4' >
         <h2>Contact</h2>
-        <p>0656743545</p>
+        <p>0658690678</p>
         <p>benbahlouli.nahim@gmail.com</p>
         </section>
       </article></>
