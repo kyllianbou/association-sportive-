@@ -1,0 +1,41 @@
+.slide_container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#asso {
+    background-image: url("../img/home_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#home {
+    background-image: url("../img/services_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#home {
+    background-image: url("../img/contact_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.slide_container .numbers {
+    position: absolute;
+}
