@@ -22,7 +22,7 @@ const Nav = () => {
         <NavLink to="/about" className='brand'>ckcg avion</NavLink>
             <ul className='nav-links'>
                 <li><NavLink to="/Home" className='link-item'>accueil</NavLink></li>
-                <li><NavLink to="/Association" className='link-item'>association</NavLink></li>
+                <li><NavLink to="/Club" className='link-item'>association</NavLink></li>
                 <li><NavLink to="/Services" className='link-item'>services</NavLink></li>
                 <li><NavLink to="/Gallerie" className='link-item'>gallerie</NavLink></li>
                 <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
@@ -31,10 +31,10 @@ const Nav = () => {
         </nav> 
         <Menu  className='burger'>
         <nav>
-        <NavLink to="/about" className='brand'>ckcg avion</NavLink>
+        <NavLink to="/Home" className='brand'>ckcg avion</NavLink>
             <ul className='nav-links'>
                 <li><NavLink to="/Home" className='link-item'>accueil</NavLink></li>
-                <li><NavLink to="/Association" className='link-item'>association</NavLink></li>
+                <li><NavLink to="/Club" className='link-item'>association</NavLink></li>
                 <li><NavLink to="/Services" className='link-item'>services</NavLink></li>
                 <li><NavLink to="/Gallerie" className='link-item'>gallerie</NavLink></li>
                 <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
