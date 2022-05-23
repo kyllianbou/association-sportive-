@@ -44,12 +44,6 @@ nav ul.nav-links li .link-item:hover, .brand:hover, .connexion:hover{
     color: #fff;
 }
 
-
-
-p{
-    width: 400px;
-} 
-
 Menu.burger, #react-burger-menu-btn, .bm-burger-bars{
     display: none;
 }
