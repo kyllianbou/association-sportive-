@@ -1,15 +1,25 @@
+/* * {
+    outline: red 1px solid;
+} */
+
 .slide_container {
-    position: relative;
     height: 100vh;
     width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .slide {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    scroll-snap-align: start;
 }
 
 .slide h1 {
@@ -24,18 +34,59 @@
     background-position: center;
 }
 
-#home {
+#services {
     background-image: url("../img/services_bg.png");
     background-size: cover;
     background-position: center;
 }
 
-#home {
+#contact {
     background-image: url("../img/contact_bg.png");
     background-size: cover;
     background-position: center;
 }
 
-.slide_container .numbers {
+.numbers {
+    margin: 0 0 1em 0;
+    padding: 0;
     position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2em;
+    color: #fff;
+    font-size: 2em;
+    z-index: 99;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.numbers li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0.7em;
+    width: 0.7em;
+    cursor: pointer;
+}
+
+.number {
+    padding: 0;
+    opacity: 0.6;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.number:hover {
+    opacity: 1;
+}
+
+.number.active {
+    opacity: 1;
+    font-size: 1.4em;
 }
