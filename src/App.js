@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Login from './pages/Login';
 const App = () => {
     return (
         <div>
-            <BrowserRouter>
+           <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={<Home/>}></Route>
+                    <Route path='/Home' element={<Home/>}></Route>
+                    <Route path='/Login' element={<Login/>}></Route>
                 </Routes>
             </BrowserRouter>
-            
         </div>
     );
 };

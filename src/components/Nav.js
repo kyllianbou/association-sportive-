@@ -19,7 +19,7 @@ const Nav = () => {
     return (
         <>
         <nav className={navbar ? 'navbar active' : 'navbar'}>
-        <NavLink to="/about" className='brand'>ckcg avion</NavLink>
+        <NavLink to="/Home" className='brand'>ckcg avion</NavLink>
             <ul className='nav-links'>
                 <li><NavLink to="/Home" className='link-item'>accueil</NavLink></li>
                 <li><NavLink to="/Club" className='link-item'>association</NavLink></li>
@@ -27,7 +27,7 @@ const Nav = () => {
                 <li><NavLink to="/Gallerie" className='link-item'>gallerie</NavLink></li>
                 <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
             </ul>     
-        <NavLink to="/about" className='connexion'>login/sign in</NavLink>
+        <NavLink to="/Login" className='connexion'>login/sign in</NavLink>
         </nav> 
         <Menu  className='burger'>
         <nav>
@@ -39,7 +39,7 @@ const Nav = () => {
                 <li><NavLink to="/Gallerie" className='link-item'>gallerie</NavLink></li>
                 <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
             </ul>     
-        <NavLink to="/about" className='connexion'>login/sign in</NavLink>
+        <NavLink to="/Login" className='connexion'>login/sign in</NavLink>
         </nav> 
         </Menu>
         </>
