@@ -52,7 +52,7 @@
     border-radius: 5px;
 }
 
-button{
+.login button{
     width: 150px;
     height: 40px;
     margin: 15px auto;
@@ -65,7 +65,7 @@ button{
 
 }
 
-button:hover{
+.login button:hover{
     background-color: rgb(241, 164, 21);
     color: #fff;
     cursor: pointer;
@@ -80,12 +80,12 @@ button:hover{
     color: #cecece
 }
 
-i{
+.login i{
     transition: all .3s ease-in-out;
     padding: 10px;
 }
 
-i:hover{
+.login i:hover{
     transform: rotate(360deg);
     color:rgb(241, 164, 21);
 }
@@ -128,7 +128,7 @@ i:hover{
         width: 90%;
         height: 500px;
     }
-    nav{
+    .login nav{
         background-color: transparent;
     }
     .trait{
