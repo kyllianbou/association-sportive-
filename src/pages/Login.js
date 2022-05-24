@@ -20,6 +20,16 @@ const Login = () => {
                   <i class="fa-brands fa-tiktok"></i>
                   </div>
               </article>
+              <span className="trait"></span>
+              <article>
+                  <input type="email" placeholder='adresse@mail.com' />
+                  <input type="password" placeholder='Mot de passe' />
+                  <button>Connexion</button>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-tiktok"></i>
+              </article>
           </div>
         </div>
     );
