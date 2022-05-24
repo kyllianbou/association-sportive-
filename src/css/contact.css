@@ -159,7 +159,7 @@
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         gap: 160px;
-        padding-left: 15%;
+        padding-left: 0px;
     }
     .art1{
         gap: 20px;
@@ -171,21 +171,21 @@
        grid-column: 1;
        grid-row: 2;
        gap: 20px;
-       padding-left: 38px;
+       padding-left: 48px;
        
    }
    .art3{
        grid-column:1 ;
        grid-row: 3;
        gap: 20px;
-       padding-left: 8px;
+       padding-left: 74px;
    
    }
    .art4{
        grid-column: 1;
        grid-row: 4;
        gap: 20px;
-       padding-left: 8px;
+       padding-left: 74px;
    }
    .lille{
     width: 210px;
