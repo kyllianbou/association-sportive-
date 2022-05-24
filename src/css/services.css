@@ -27,6 +27,7 @@
 }
 
 .services hr {
+    margin: auto;
     margin-top: 3em;
     text-align: center;
     width: 70%;
@@ -45,5 +46,109 @@
     font-size: 1.1em;
     line-height: 40px;
     color: #161413;
-    margin: 0.5em;
+}
+
+.services .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.services .infos button {
+    border: 0;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 0.5em 1em;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #161413;
+}
+
+.services .infos button:hover {
+    background-color: rgb(100, 192, 92);
+    color: #fff;
+}
+
+.services li h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #161413;
+    background-color: #fff;
+    width: 100%;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.services .liste_container {
+    width: 70%;
+}
+
+.services .liste_locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+    gap: 2em;
+}
+
+.services .liste_locations > * {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services .liste_locations img {
+    border-radius: 10px;
+    height: 50%;
+}
+
+.services .liste_locations li {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    height: 30em;
+    flex: 1 1 30%;
+    box-shadow: #161413 0px 0px 5px 0px;
+}
+
+#services_prestations {
+    padding-bottom: 10vh;
+}
+
+#liste_container {
+    width: 70%;
+}
+
+#liste_locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+    gap: 2em;
+}
+
+#liste_locations li {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    height: 30em;
+    flex: 1 1 35%;
+    box-shadow: #161413 0px 0px 5px 0px;
+}
+
+#liste_locations img {
+    border-radius: 10px 10px 0 0;
+    height: 70%;
+    width: 100%;
 }

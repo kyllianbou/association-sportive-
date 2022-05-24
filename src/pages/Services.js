@@ -1,5 +1,9 @@
 import React from "react";
 import '../css/services.css';
+import Cards from "../components/Card";
+import { Location } from "../components/Location";
+import { Prestation } from "../components/Prestation";
+import CardsP from "../components/CardP";
 
 export const Services = () => {
     return (
@@ -15,18 +19,22 @@ export const Services = () => {
                 <hr></hr>
                 <section className="services_locations">
                     <h2>Nos produits à louer</h2>
-                    <article>
-                        <ul>
-
+                    <article className="liste_container">
+                        <ul className='liste_locations'>
+                        {Location.map((kayak, index) => (
+                        <Cards key={index} kayak={kayak} />
+                    ))}
                         </ul>
                     </article>
                 </section>
                 <hr></hr>
-                <section className="services_prestations">
+                <section id="services_prestations">
                     <h2>Prestations encadrées</h2>
-                    <article>
-                        <ul>
-
+                    <article id="liste_container">
+                        <ul id="liste_locations">
+                        {Prestation.map((prestation, index) => (
+                        <CardsP key={index} prestation={prestation} />
+                    ))}
                         </ul>
                     </article>
                 </section>
