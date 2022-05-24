@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import '../css/nav.css';
 import '../css/login.css';
 
 
