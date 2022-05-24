@@ -15,10 +15,11 @@ const CardsP = ({ prestation }) => {
 
 
     return (
-        <li className="card">
+        <li className="card" id="#card">
             <img src={prestation.image} alt={"aperçu " + prestation.nom} />
             <div className="infos">
-                <h3>{prestation.nom}</h3>
+                <h3 id="titre_pack">{prestation.nom}</h3>
+                <p>{prestation.description}</p>
                 <button className='btn_prix' onMouseEnter={Hover} onMouseLeave={HoverLeave}>{prestation.prix + " €"}</button>
             </div>
         </li>
