@@ -22,7 +22,7 @@ const Login = () => {
               </article>
               <span className="trait"></span>
               <article>
-                  <h2>INSCRPTION</h2>
+                  <h2>INSCRIPTION</h2>
                   <input type="text" placeholder='Nom' />
                   <input type="text" placeholder='Prénom' />
                   <input type="password" placeholder='adresse@mail.com' />
