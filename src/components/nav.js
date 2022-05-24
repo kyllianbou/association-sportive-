@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import '../css/nav.css';
-import { slide as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu';
 const Nav = () => {
     const [navbar, setNavbar] = useState(false);
 
