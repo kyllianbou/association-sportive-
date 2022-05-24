@@ -6,7 +6,7 @@ import '../css/login.css';
 
 const Login = () => {
     return (
-        <div>
+        <div className='login'>
             <Nav />
           <div className="box">
               <article>
