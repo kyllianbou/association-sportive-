@@ -10,6 +10,7 @@ const Login = () => {
             <Nav />
           <div className="box">
               <article>
+              <h2>CONNEXION</h2>
                   <input type="email" placeholder='adresse@mail.com' />
                   <input type="password" placeholder='Mot de passe' />
                   <button>Connexion</button>
@@ -22,10 +23,9 @@ const Login = () => {
               </article>
               <span className="trait"></span>
               <article>
-                  <div className="nom-prenom">
+                  <h2>INSCRPTION</h2>
                   <input type="text" placeholder='Nom' />
                   <input type="text" placeholder='Prénom' />
-                  </div>
                   <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Mot de passe' />
