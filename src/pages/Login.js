@@ -14,10 +14,10 @@ const Login = () => {
                   <input type="password" placeholder='Mot de passe' />
                   <button>Connexion</button>
                   <div className="resaux-sociaux">
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-tiktok"></i>
+                  <i className="fa-brands fa-facebook-f"></i>
+                  <i className="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-tiktok"></i>
                   </div>
               </article>
               <span className="trait"></span>
@@ -28,12 +28,14 @@ const Login = () => {
                   <input type="password" placeholder='adresse@mail.com' />
                   <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Confirmer Mot de passe' />
-                  <button>Connexion</button>
+                 <label htmlFor="checkbox">J'accepte les conditions d'utilisations</label>
+                 <input type="checkbox" className='check-me'/>
+                  <button>Inscription</button>
                   <div className="resaux-sociaux insc">
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-tiktok"></i>
+                  <i className="fa-brands fa-facebook-f"></i>
+                  <i className="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-tiktok"></i>
                   </div>
               </article>
           </div>
