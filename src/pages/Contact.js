@@ -1,9 +1,11 @@
 import React from 'react';
 import '../css/contact.css';
+import Nav from '../components/nav'
 
 const contact = () => {
   return (
     <><div className='headder'>
+      <Nav/>
       <h1>Contact</h1>
     </div><article className='toto' >
       <section className='art1' >
