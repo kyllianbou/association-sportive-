@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/contact.css';
 import  {AiFillPhone,AiFillMail }  from  'react-icons/fa'  ; 
-import Nav from '../components/nav'
+import Nav from '../node_modules/react-burger-menu'
 
 const contact = () => {
   return (
