@@ -81,7 +81,7 @@ button:hover{
 
 i{
     transition: all .3s ease-in-out;
-    padding: 30px;
+    padding: 10px;
 }
 
 i:hover{
