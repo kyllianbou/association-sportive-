@@ -26,9 +26,9 @@ const Login = () => {
                   <h2>INSCRPTION</h2>
                   <input type="text" placeholder='Nom' />
                   <input type="text" placeholder='Prénom' />
+                  <input type="password" placeholder='adresse@mail.com' />
                   <input type="password" placeholder='Mot de passe' />
-                  <input type="password" placeholder='Mot de passe' />
-                  <input type="password" placeholder='Mot de passe' />
+                  <input type="password" placeholder='Confirmer Mot de passe' />
                   <button>Connexion</button>
                   <div className="resaux-sociaux insc">
                   <i class="fa-brands fa-facebook-f"></i>
