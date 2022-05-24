@@ -1,11 +1,10 @@
 import React from 'react';
 import '../css/contact.css';
-import Nav from '../components/nav'
+import  {AiFillPhone,AiFillMail }  from  'react-icons/fa'  ; 
 
 const contact = () => {
   return (
     <><div className='headder'>
-      <Nav/>
       <h1>Contact</h1>
     </div><article className='toto' >
       <section className='art1' >
@@ -33,7 +32,9 @@ const contact = () => {
         </section>
         <section className='art4' >
         <h2>Contact</h2>
+        {/* < AiFillPhone/> */}
         <p>0658690678</p>
+       {/* < AiFillMail /> */}
         <p>benbahlouli.nahim@gmail.com</p>
         </section>
       </article></>
