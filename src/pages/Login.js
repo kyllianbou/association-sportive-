@@ -22,13 +22,20 @@ const Login = () => {
               </article>
               <span className="trait"></span>
               <article>
-                  <input type="email" placeholder='adresse@mail.com' />
+                  <div className="nom-prenom">
+                  <input type="text" placeholder='Nom' />
+                  <input type="text" placeholder='Prénom' />
+                  </div>
+                  <input type="password" placeholder='Mot de passe' />
+                  <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Mot de passe' />
                   <button>Connexion</button>
+                  <div className="resaux-sociaux insc">
                   <i class="fa-brands fa-facebook-f"></i>
                   <i class="fa-brands fa-twitter"></i>
                   <i class="fa-brands fa-instagram"></i>
                   <i class="fa-brands fa-tiktok"></i>
+                  </div>
               </article>
           </div>
         </div>

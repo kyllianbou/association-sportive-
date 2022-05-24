@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+nav{
+    background-color: #000;
+}
+
 .box{
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +26,7 @@
     align-items: center;
     margin: 0 auto;
     width: 600px;
-    height: auto;
+    height: 500px;
 }
 
 .box article input{
@@ -40,9 +44,9 @@
 
 .trait{
     background-color: #cecece;
-    height: 400px;
+    height: 450px;
     width: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 button{
@@ -54,11 +58,14 @@ button{
     background-color: #cecece;
     font-weight: 600;
     box-shadow: 0px 2px rgba(0,0,0,.3);
-    transition: all .3s;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    
 }
 
 button:hover{
-    background-color: #fff;
+    background-color: rgb(241, 164, 21);
+    color: #fff;
 }
 
 .resaux-sociaux{
@@ -68,7 +75,34 @@ button:hover{
     padding-top: 160px;
     font-size: 30px;
     color: #cecece
+}
 
+i{
+    transition: all .3s ease-in-out;
+    padding: 30px;
+}
+
+i:hover{
+    transform: rotate(360deg);
+    color:rgb(241, 164, 21);
+}
+
+
+.insc{
+    padding-top: 0px;
+}
+
+
+.nom-prenom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 100%;  
+}
+
+.nom-prenom input{
+    margin: 15px;
+    display: block;
 }
 
 
