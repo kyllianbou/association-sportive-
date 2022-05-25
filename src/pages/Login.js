@@ -14,10 +14,10 @@ const Login = () => {
                   <input type="password" placeholder='Mot de passe' />
                   <button>Connexion</button>
                   <div className="resaux-sociaux">
-                  <i className="fa-brands fa-facebook-f"></i>
-                  <i className="fa-brands fa-twitter"></i>
-                  <i className="fa-brands fa-instagram"></i>
-                  <i className="fa-brands fa-tiktok"></i>
+                  <a href=''><i className="fa-brands fa-facebook-f"></i></a>
+                  <a href=''><i className="fa-brands fa-twitter"></i></a>
+                  <a href=''><i className="fa-brands fa-instagram"></i></a>
+                  <a href=''><i className="fa-brands fa-tiktok"></i></a>
                   </div>
               </article>
               <span className="trait"></span>
@@ -28,12 +28,14 @@ const Login = () => {
                   <input type="password" placeholder='adresse@mail.com' />
                   <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Confirmer Mot de passe' />
-                  <button>Connexion</button>
+                 <label htmlFor="checkbox">J'accepte <a href=''>les conditions d'utilisations</a> </label>
+                 <input type="checkbox" className='check-me'/>
+                  <button>Inscription</button>
                   <div className="resaux-sociaux insc">
-                  <i className="fa-brands fa-facebook-f"></i>
-                  <i className="fa-brands fa-twitter"></i>
-                  <i className="fa-brands fa-instagram"></i>
-                  <i className="fa-brands fa-tiktok"></i>
+                  <a href='https://fr-fr.facebook.com/'><i className="fa-brands fa-facebook-f"></i></a>
+                  <a href='https://twitter.com/?lang=fr'><i className="fa-brands fa-twitter"></i></a>
+                  <a href='https://www.instagram.com/?hl=fr'><i className="fa-brands fa-instagram"></i></a>
+                  <a href='https://www.tiktok.com/fr/'><i className="fa-brands fa-tiktok"></i></a>
                   </div>
               </article>
           </div>

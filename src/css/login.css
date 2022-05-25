@@ -5,7 +5,7 @@
 }
 
 .login nav{
-    background-color: #000;
+    background-color: rgb(26, 26, 26);
 }
 
 .box{
@@ -29,7 +29,7 @@
     height: 500px;
 }
 
-.box article input{
+.box article input[type=text], input[type=password], input[type=email]{
     width: 600px;
     border-radius: 50px;
     margin: 15px auto;
@@ -52,7 +52,7 @@
     border-radius: 5px;
 }
 
-button{
+.login button{
     width: 150px;
     height: 40px;
     margin: 15px auto;
@@ -65,7 +65,7 @@ button{
 
 }
 
-button:hover{
+.login button:hover{
     background-color: rgb(241, 164, 21);
     color: #fff;
     cursor: pointer;
@@ -77,16 +77,16 @@ button:hover{
     justify-content: space-around;
     padding-top: 160px;
     font-size: 30px;
-    color: #cecece
+    
 }
 
-i{
+.login a i{
     transition: all .3s ease-in-out;
     padding: 10px;
-   
+    color: #cecece;
 }
 
-i:hover{
+.login a i:hover{
     transform: rotate(360deg);
     color:rgb(241, 164, 21);
 }
@@ -96,8 +96,13 @@ i:hover{
     padding-top: 0px;
 }
 
+input.check-me{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border: none;
 
-
+}
 
 
 
@@ -129,7 +134,7 @@ i:hover{
         width: 90%;
         height: 500px;
     }
-    nav{
+    .login nav{
         background-color: transparent;
     }
     .trait{
