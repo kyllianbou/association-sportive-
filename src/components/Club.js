@@ -1,9 +1,11 @@
 import "../css/club.css"
+import Nav from "../components/Nav"
 
 const Club = () => {
 
     return (
         <>
+        <Nav/>
             <div className="body">
                 <section className="club">
                     <h1>Le Club</h1>
