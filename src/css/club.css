@@ -36,7 +36,7 @@ section {
     background-color: rgb(173, 173, 173);
 }
 
-img {
+.body img{
     max-width: 100%;
     height: auto;
     width: auto;
