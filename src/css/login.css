@@ -84,6 +84,7 @@
     transition: all .3s ease-in-out;
     padding: 10px;
     color: #cecece;
+    font-size: 30px;
 }
 
 .login a i:hover{
