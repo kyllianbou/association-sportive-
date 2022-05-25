@@ -1,11 +1,11 @@
-#headde{
+.heade{
     background-image: url('../img/kayak.png');
     width: 100%;
     height: 100vh;
     background-size: cover;
     display: block;
 }
- #headde h1{
+ .heade h1{
     color: white;
     text-align: center;
     padding-top: 300px;
