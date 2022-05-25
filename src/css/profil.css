@@ -73,11 +73,13 @@
     border-radius: 5px;
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 970px) {
     .profil nav{
         background-color: transparent;
     }
-    
+}
+
+@media screen and (max-width: 801px) {
     .trait-profil{
         display: none;
     }
