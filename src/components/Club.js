@@ -1,11 +1,12 @@
-import "../css/club.css"
-import Nav from "../components/Nav"
+import "../css/club.css";
+import Nav from "../components/Nav";
+import Footer from "./Footer";
 
 const Club = () => {
 
     return (
         <>
-        <Nav/>
+            <Nav />
             <div className="body">
                 <section className="club">
                     <h1>Le Club</h1>
@@ -60,8 +61,8 @@ const Club = () => {
                         </div>
                     </div>
                 </section>
+                <Footer />
             </div>
-
         </>
     );
 
