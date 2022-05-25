@@ -1,23 +1,19 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     outline: red;
 }
 
-.body{
-   font-family: Arial, Helvetica, sans-serif;
-   color: rgb(8, 8, 8);
-   height: 100vh;
-   width: 100%;
-   line-height: 1.6;
-   font-size: 1rem;
+.body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(8, 8, 8);
+    height: 100vh;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 1rem;
 }
 
-
-
-section{
-    
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +23,7 @@ section{
     width: 100%;
 }
 
-.club h1{
+.club h1 {
     color: aliceblue;
 }
 
@@ -35,7 +31,8 @@ section{
     font-size: 2.5rem;
 }
 
-.ecole, .service {
+.ecole,
+.service {
     background-color: rgb(173, 173, 173);
 }
 
@@ -72,14 +69,10 @@ section{
     width: 100%;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    
+    text-align: justify;
+    text-align-last: center;
+    padding: 2em;
 }
-
-
-
-
-
 
 .club {
     background: url('../../public/images/kaya-club.png') no-repeat center center/cover;
@@ -87,38 +80,42 @@ section{
 
 @media screen and (min-width:600px) {
 
-h1{
-    font-size: 3rem;
-}
+    h1 {
+        font-size: 3rem;
+    }
 
-h2{
-    font-size: 2rem;
-}
+    h2 {
+        font-size: 2rem;
+    }
 
- .item-grid{
-     flex-wrap: nowrap;
- }
+    .item-grid {
+        flex-wrap: nowrap;
+    }
 
- .presentation .item-grid{
-    flex-wrap: wrap;
- }
+    .presentation .item-grid {
+        flex-wrap: wrap;
+    }
 
- .grid__item{
-     padding: 3rem;
- }
+    .grid__item {
+        padding: 3rem;
+    }
 
- .grid__item.right{
-     order: 1;
- }
+    .grid__item p {
+        padding: 2em;
+    }
 
- .grid__item.left{
-     order: 2;
- }
+    .grid__item.right {
+        order: 1;
+    }
 
- .body p{
-     max-width: 600px;
- }
+    .grid__item.left {
+        order: 2;
+    }
 
- 
+    .body p {
+        max-width: 600px;
+    }
+
+
 
 }

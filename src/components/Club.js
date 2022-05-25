@@ -5,7 +5,7 @@ const Club = () => {
 
     return (
         <>
-        <Nav/>
+            <Nav />
             <div className="body">
                 <section className="club">
                     <h1>Le Club</h1>
@@ -60,8 +60,8 @@ const Club = () => {
                         </div>
                     </div>
                 </section>
+                <Footer />
             </div>
-
         </>
     );
 

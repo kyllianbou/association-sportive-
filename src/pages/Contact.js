@@ -7,10 +7,11 @@ import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
-    <><div className='headder'>
+    <>
       <Nav />
-      <h1>Contact</h1>
-    </div><article className='toto' >
+      <div className='headder'>
+        <h1>Contact</h1>
+      </div><article className='toto' >
         <section className='art1' >
           <ul className='liste_adresse'>
             <li>
