@@ -5,7 +5,7 @@ import Nav from '../components/Nav'
 
 const Contact = () => {
     return (
-        <><div className='headde'>
+        <><div className='heade'>
             <Nav />
             <h1>Kayak Polo</h1>
         </div><article id='toto' >
