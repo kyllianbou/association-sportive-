@@ -6,11 +6,11 @@ import { NavLink } from 'react-router-dom';
 const Slide = () => {
 
     function ActiveClick(e) {
-        let active = document.getElementsByClassName('active');
+        let active = document.getElementsByClassName('actif');
         console.log(active);
 
-        active[0].classList.remove('active');
-        e.target.classList.add('active');
+        active[0].classList.remove('actif');
+        e.target.classList.add('actif');
     }
 
     return (
@@ -18,7 +18,7 @@ const Slide = () => {
             <Nav />
             <ul className="numbers">
                 <li>
-                    <a className='number one active' href="#asso" onClick={ActiveClick}>1</a>
+                    <a className='number one actif' id="number one" href="#asso" onClick={ActiveClick}>1</a>
                 </li>
                 <li>
                     <a className='number two' href="#services" onClick={ActiveClick}>2</a>
