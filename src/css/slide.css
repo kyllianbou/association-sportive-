@@ -75,7 +75,7 @@
     font-size: 2em;
     z-index: 99;
     list-style-type: none;
-    gap: 30px;
+    gap: 2em;
 }
 
 .numbers li {
@@ -88,7 +88,7 @@
     padding: 0;
     opacity: 0.6;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 500;
     color: #fff;
     cursor: pointer;
@@ -100,5 +100,5 @@
 
 .number.actif {
     opacity: 1;
-    font-size: 1.4em;
+    font-size: 1.9em;
 }
