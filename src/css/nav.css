@@ -33,7 +33,7 @@ nav ul.nav-links li {
 nav ul.nav-links li .link-item, .brand, .connexion{
     text-decoration: none;
     padding: 20px;
-    color: #6d6d6d;
+    color: #fff;
     text-transform: uppercase;
     display: block;
     font-weight: bold;
