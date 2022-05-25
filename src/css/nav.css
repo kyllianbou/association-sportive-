@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-*{
-=======
  *{
->>>>>>> origin/dev
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-nav{
-=======
 .navbar{
->>>>>>> origin/dev
     width: 100%;
     height: auto;
     display: flex;
