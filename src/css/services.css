@@ -53,7 +53,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2em;
     width: 100%;
     letter-spacing: 2px;
 }
@@ -61,11 +60,12 @@
 .services .infos button {
     border: 0;
     border-radius: 50px;
-    background-color: #fff;
     padding: 0.5em 1em;
-    font-weight: 500;
+    margin: 1em 0;
+    font-weight: 600;
     font-size: 1.5em;
-    color: #161413;
+    color: #444;
+    background-color: #fff;
 }
 
 .services .infos button:hover {
@@ -78,11 +78,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #161413;
-    background-color: #fff;
+    color: #fff;
+    text-transform: uppercase;
     width: 100%;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.9em;
+    background-color: rgba(0, 0, 0, 0.24);
 }
 
 .services .liste_container {
@@ -96,7 +97,7 @@
     flex-wrap: wrap;
     width: 100%;
     list-style-type: none;
-    gap: 2em;
+    gap: 2.5em;
 }
 
 .services .liste_locations>* {
@@ -109,15 +110,17 @@
 }
 
 .services .liste_locations img {
-    border-radius: 10px;
-    height: 50%;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
 }
 
 .services .liste_locations li {
-    background-color: rgb(233, 233, 233);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
-    height: 30em;
-    flex: 1 1 30%;
+    max-width: 20em;
+    flex: 1 1 25%;
     box-shadow: #666 3px 4px 5px 0px;
 }
 
@@ -144,11 +147,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(233, 233, 233);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
     border-radius: 10px;
     flex: 1 1 30%;
     box-shadow: #666 3px 4px 5px 0px;
-    padding: 20px;
 }
 
 #titre_pack {
@@ -156,17 +158,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #161413;
-    background-color: #fff;
-    width: 90%;
-    border-radius: 0 0 20px 20px;
-    padding: 0.3em 0;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.9em;
+    background-color: rgba(0, 0, 0, 0.24);
 }
 
 #liste_locations img {
-    margin-top: 10px;
     border-radius: 10px 10px 0 0;
-    width: 90%;
+    width: 100%;
 }
