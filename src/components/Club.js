@@ -1,5 +1,5 @@
 import "../css/club.css"
-import Nav from "../components/Nav"
+import Nav from "./Nav"
 
 const Club = () => {
 
