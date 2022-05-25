@@ -10,12 +10,5 @@ import { Footer } from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<<<<<<< HEAD
-  <React.StrictMode>
-    <Services />
-    <Footer />
-  </React.StrictMode>
-=======
   <App/>
->>>>>>> origin/dev
 );
