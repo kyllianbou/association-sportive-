@@ -1,0 +1,68 @@
+.headder{
+    background-image: url('../img/bonnefemme.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+}
+ .headder h1{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.toto {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.toto p{
+    padding: 5% 0% 5% 0%;
+    font-size: x-small;
+}
+.ttph{
+    padding-left:48px ;
+}
+.texte{  
+   max-width: 600px;
+   margin: auto, auto, auto, auto;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    gap: 0px;
+}
+.color{
+    text-decoration-line:underline;
+    text-decoration-color: rgb(241,164,21);
+    text-decoration-style: 6px;
+  
+
+}
+@media screen and (min-width:800px) {
+    .ttph{
+display: flex;
+flex-direction: row;
+    }
+    .ttph img{
+        width: 390px;
+        height: 390px;
+    }
+
+.toto p{
+    padding: 5% 0% 5% 0%;
+    font-size:large;
+}
+}
+@media screen and (min-width:1050px) {
+    .ttph{
+display: flex;
+flex-direction: row;
+    }
+    .ttph img{
+        width: 590px;
+        height: 590px;
+    }
+}
