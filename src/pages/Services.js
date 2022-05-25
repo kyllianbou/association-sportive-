@@ -4,10 +4,13 @@ import Cards from "../components/Card";
 import { Location } from "../components/Location";
 import { Prestation } from "../components/Prestation";
 import CardsP from "../components/CardP";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 
-export const Services = () => {
+const Services = () => {
     return (
         <div className="services">
+            <Nav />
             <header className="services_header">
                 <h1>Nos services</h1>
             </header>
@@ -39,6 +42,9 @@ export const Services = () => {
                     </article>
                 </section>
             </article>
+            <Footer />
         </div>
     )
 }
+
+export default Services;

@@ -17,6 +17,7 @@
     flex-grow: 1;
     flex-shrink: 0;
     scroll-snap-align: start;
+    gap: 2em;
 }
 
 .slide h1 {

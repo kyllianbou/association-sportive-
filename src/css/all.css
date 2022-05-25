@@ -1,18 +1,16 @@
-a:-webkit-any-link {
-    text-decoration: unset;
-    color: #fff;
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-* {
-    transition: ease 0.5s;
-    margin: 0;
-    padding: 0;
+::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);
 }
 
-button {
-    cursor: pointer;
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 20px;
 }
 
-a {
-    cursor: pointer;
-}
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+  }

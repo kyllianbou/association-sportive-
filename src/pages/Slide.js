@@ -1,8 +1,9 @@
 import React from 'react';
 import '../css/slide.css';
-import '../css/all.css';
+import Nav from '../components/Nav';
+import { NavLink } from 'react-router-dom';
 
-export const Slide = () => {
+const Slide = () => {
 
     function ActiveClick(e) {
         let active = document.getElementsByClassName('active');
@@ -13,6 +14,7 @@ export const Slide = () => {
 
     return (
         <div className="slide_container">
+            <Nav />
             <ul className="numbers">
                 <li>
                     <a className='number one active' href="#asso" onClick={ActiveClick}>1</a>
@@ -26,16 +28,18 @@ export const Slide = () => {
             </ul>
             <div className="slide active" id="asso">
                 <h1>L'association</h1>
-                <button>VOIR PLUS</button>
+                <NavLink to="/Club" className='link-item'><button>VOIR PLUS</button></NavLink>
             </div>
             <div className="slide" id="services">
                 <h1>Nos services</h1>
-                <button>VOIR PLUS</button>
+                <NavLink to="/Services" className='link-item'><button>VOIR PLUS</button></NavLink>
             </div>
             <div className="slide" id="contact">
                 <h1>Nous contacter</h1>
-                <button>VOIR PLUS</button>
+                <NavLink to="/Contact" className='link-item'><button>VOIR PLUS</button></NavLink>
             </div>
         </div>
     )
 }
+
+export default Slide;
