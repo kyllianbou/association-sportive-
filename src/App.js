@@ -4,6 +4,7 @@ import Club from './components/Club';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Profil from './pages/Profil';
+import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Ecole from './pages/Ecole';
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
                     <Route path='/Profil' element={<Profil/>}></Route>
                     <Route path='/contact' element={<Contact/>}></Route>
                     <Route path='/Ecole' element={<Ecole/>}></Route>
+                    <Route path='/Services' element={<Services/>}></Route>
                 </Routes>
         </Router>
         </>
