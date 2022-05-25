@@ -14,10 +14,10 @@ const Login = () => {
                   <input type="password" placeholder='Mot de passe' />
                   <button>Connexion</button>
                   <div className="resaux-sociaux">
-                  <a href=''><i className="fa-brands fa-facebook-f"></i></a>
-                  <a href=''><i className="fa-brands fa-twitter"></i></a>
-                  <a href=''><i className="fa-brands fa-instagram"></i></a>
-                  <a href=''><i className="fa-brands fa-tiktok"></i></a>
+                  <a href='https://facebook.com'><i className="fa-brands fa-facebook-f"></i></a>
+                  <a href='https://twitter.com'><i className="fa-brands fa-twitter"></i></a>
+                  <a href='https://instagram.com'><i className="fa-brands fa-instagram"></i></a>
+                  <a href='https://tiktok.com'><i className="fa-brands fa-tiktok"></i></a>
                   </div>
               </article>
               <span className="trait"></span>
@@ -28,7 +28,7 @@ const Login = () => {
                   <input type="email" placeholder='adresse@mail.com' />
                   <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Confirmer Mot de passe' />
-                 <label htmlFor="checkbox">J'accepte <a href=''>les conditions d'utilisations</a> </label>
+                 <label htmlFor="checkbox">J'accepte <a href='#test'>les conditions d'utilisations</a> </label>
                  <input type="checkbox" className='check-me'/>
                   <button>Inscription</button>
                   <div className="resaux-sociaux insc">

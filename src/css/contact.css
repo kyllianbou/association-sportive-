@@ -1,0 +1,121 @@
+.headder {
+    background-image: url('../img/vague.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headder h1 {
+    color: white;
+    text-align: center;
+}
+
+.toto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 160px;
+    padding: 2em;
+}
+
+.art1 {
+    gap: 20px;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.art2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    gap: 20px;
+
+}
+
+.art3 {
+    grid-column: 1 / 2;
+    gap: 20px;
+
+}
+
+.art4 {
+    grid-column: 2/3;
+    grid-row: 2;
+    gap: 20px;
+}
+
+.toto section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liste_adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 2px;
+    border-radius: 2px;
+}
+
+.contact input[type='text'], .contact input[type='email'], .contact input[type='password'], .contact input[type='tel'] {
+    width: 80%;
+    height: 3em;
+    border-radius: 50px;
+    margin: 15px auto;
+    padding-left: 15px;
+    background-color: #cecece;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px rgb(0 0 0 / 30%);
+}
+
+.contact #commentaire {
+    font-family: inherit;
+    width: 80%;
+    border-radius: 50px;
+    margin: 15px auto;
+    padding: 15px 0 0 15px;
+    background-color: #cecece;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px rgb(0 0 0 / 30%);
+    height: 10em;
+    border-radius: 20px;
+    resize: none;
+}
+
+.contact #commentaire::-webkit-scrollbar {
+    width: 0;
+}
+
+.contact input[type='submit'] {
+    width: 150px;
+    height: 40px;
+    margin: 15px auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #cecece;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact input[type='submit']:hover {
+    background-color: rgb(241, 164, 21);
+    color: #fff;
+}
