@@ -115,7 +115,7 @@ h2{
      order: 2;
  }
 
- p{
+ .body p{
      max-width: 600px;
  }
 
