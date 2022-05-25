@@ -29,7 +29,7 @@
     height: 500px;
 }
 
-.box article input[type=text], input[type=password], input[type=email]{
+.box article input[type=text], .box input[type=password], .box input[type=email]{
     width: 600px;
     border-radius: 50px;
     margin: 15px auto;
