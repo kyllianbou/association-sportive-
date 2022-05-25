@@ -4,7 +4,7 @@ import React from 'react';
  import Nav from '../components/Nav'
 
 
- const contact = () => {
+ const Contact = () => {
    return (
      <><div className='headder'>
        <Nav/>
@@ -46,3 +46,4 @@ import React from 'react';
        </article></>
    );
  }
+ export default Contact

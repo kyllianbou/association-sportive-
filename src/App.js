@@ -4,6 +4,7 @@ import Club from './components/Club';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Profil from './pages/Profil';
+import Contact from './pages/Contact';
 const App = () => {
     return (
         <> 
@@ -14,6 +15,7 @@ const App = () => {
                     <Route path='/Home' element={<Home/>}></Route>
                     <Route path='/Login' element={<Login/>}></Route>
                     <Route path='/Profil' element={<Profil/>}></Route>
+                    <Route path='/contact' element={<Contact/>}></Route>
                 </Routes>
         </Router>
         </>
