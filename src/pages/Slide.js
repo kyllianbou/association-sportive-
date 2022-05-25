@@ -7,6 +7,7 @@ const Slide = () => {
 
     function ActiveClick(e) {
         let active = document.getElementsByClassName('active');
+        console.log(active);
 
         active[0].classList.remove('active');
         e.target.classList.add('active');

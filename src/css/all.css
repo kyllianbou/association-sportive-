@@ -14,3 +14,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #444;
 }
+
+button {
+    cursor: pointer;
+}
