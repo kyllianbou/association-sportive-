@@ -25,7 +25,7 @@ const Login = () => {
                   <h2>INSCRIPTION</h2>
                   <input type="text" placeholder='Nom' />
                   <input type="text" placeholder='Prénom' />
-                  <input type="password" placeholder='adresse@mail.com' />
+                  <input type="email" placeholder='adresse@mail.com' />
                   <input type="password" placeholder='Mot de passe' />
                   <input type="password" placeholder='Confirmer Mot de passe' />
                  <label htmlFor="checkbox">J'accepte <a href=''>les conditions d'utilisations</a> </label>

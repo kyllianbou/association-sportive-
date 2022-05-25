@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+.profil
+
 .profil nav{
     background-color: rgb(26, 26, 26);
+}
+
+.box-profil article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profil .box-profil article .avatar{
+    width: 300px;
+    height: 300px;
+    background-color: #cecece;
+    clip-path: circle(40%);
+}
+
+.avatar h2{
+    padding-bottom: 30px;
 }
