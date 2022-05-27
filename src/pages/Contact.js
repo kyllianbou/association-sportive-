@@ -11,7 +11,8 @@ const Contact = () => {
       <Nav />
       <div className='headder'>
         <h1>Contact</h1>
-      </div><article className='toto' >
+      </div>
+      <article className='toto' >
         <section className='art1' >
           <ul className='liste_adresse'>
             <li>

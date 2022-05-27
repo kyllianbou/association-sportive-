@@ -13,6 +13,17 @@
    top: 0;
    background-color: transparent;
    transition: 1s;
+   animation: slide_down 0.5s ease-out;
+   will-change: transform;
+ }
+
+ @keyframes slide_down {
+   from {
+     transform: translateY(-50px)
+   }
+   to {
+     transform: translateY(0);
+   }
  }
 
  nav.active {
@@ -53,6 +64,10 @@
  .bm-burger-bars {
    display: none;
  }
+
+nav.bm-item {
+  display: flex;
+}
 
  @media screen and (max-width: 967px) {
 

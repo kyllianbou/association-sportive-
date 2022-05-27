@@ -6,6 +6,7 @@ const Cards = ({ kayak }) => {
 
     function Hover(e) {
         Default = e.target.innerHTML;
+
         e.target.innerHTML = "Ajouter au panier";
     }
 

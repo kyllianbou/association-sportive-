@@ -13,6 +13,7 @@ const Slide = () => {
         e.target.classList.add('actif');
     }
 
+
     return (
         <div className="slide_container">
             <Nav />
