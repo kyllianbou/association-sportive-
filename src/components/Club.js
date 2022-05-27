@@ -1,6 +1,6 @@
 import "../css/club.css"
 import Nav from "./Nav"
-
+import Footer from "./Footer";
 const Club = () => {
 
     return (

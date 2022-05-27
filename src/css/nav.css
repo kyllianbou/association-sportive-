@@ -26,6 +26,10 @@
    align-items: center;
  }
 
+ nav ul.nav-links li{
+   list-style-type: none;
+ }
+
 nav ul.nav-links li .link-item, .brand, .connexion{
     text-decoration: none;
     padding: 20px;
