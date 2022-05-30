@@ -13,6 +13,7 @@
    top: 0;
    background-color: transparent;
    transition: 1s;
+   z-index: 2;
  }
 
  nav.active {
