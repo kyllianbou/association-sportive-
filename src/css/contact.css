@@ -119,3 +119,32 @@
     background-color: rgb(241, 164, 21);
     color: #fff;
 }
+@media screen and (max-width: 700px) {
+
+    .art1 {
+        gap: 20px;
+        grid-column: 1 / 2;
+    }
+    
+    .art2 {
+        grid-column: 1/2;
+        gap: 20px;
+        grid-row: 2;
+    
+    }
+    
+    .art3 {
+        grid-column: 1 / 2;
+        gap: 20px;
+    
+    }
+    
+    .art4 {
+        grid-column: 1/2;
+        gap: 20px;
+        grid-row: 3;
+    }
+    .toto{
+        padding-left:12% ;
+    }
+}
