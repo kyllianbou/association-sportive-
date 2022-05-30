@@ -14,6 +14,8 @@
     font-size: 3rem;
 }
 
+
+
 .toto {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -29,7 +31,7 @@
     margin: 1em;
     text-align: center;
     text-decoration: underline solid orange;
-    text-underline-offset: 0.075em;
+    text-underline-offset: 0.25em;
 }
 
 .art1 {
@@ -66,7 +68,6 @@
 .liste_adresse {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;

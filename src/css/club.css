@@ -13,6 +13,22 @@
     font-size: 1rem;
 }
 
+.body h2 {
+    text-decoration: underline solid orange;
+    text-underline-offset: 0.25em;
+}
+
+.body a {
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #222;
+}
+
+.body a:visited {
+    color: unset;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -21,6 +37,10 @@ section {
     text-align: center;
     height: 100%;
     width: 100%;
+}
+
+.body p {
+    padding: 2em 0;
 }
 
 .club h1 {
@@ -37,8 +57,10 @@ section {
     background-color: rgb(173, 173, 173);
 }
 
-.body img{
+.body img {
     max-width: 100%;
+    border-radius: 10px;
+    box-shadow: #666 3px 4px 5px 0px;
     height: auto;
     width: auto;
     display: flex;
@@ -56,7 +78,6 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .item-grid {
