@@ -17,7 +17,7 @@ const Services = () => {
             <article>
                 <section className="services_presentation">
                     <h2>Présentation</h2>
-                    <p>Lorem ipsum dolor sit amet. Ut possimus omnis in saepe consectetur ut quidem galisum est alias. Est quos voluptatum ut assumenda velit et optio aspernatur sed temporibus ipsum. Aut voluptatem molestias aut temporibus Quis et aliquam temporibus. Et perspiciatis odit et voluptatem fugit et sint galisum ut quia nihil aut iste minus et nobis eligendi sed tempora beatae? Est vero minus vel sint enim est maxime nisi id officia officia sit accusantium placeat in voluptates voluptatem quo veritatis ipsa.</p>
+                    <p>Un anniversaire à fêter ? une sortie entre amis ? ou même en famille? Même si vous n'êtes pas inscrit au club, vous allez pouvoir pagayer et vous amuser !</p>
                 </section>
                 <hr></hr>
                 <section className="services_locations">
