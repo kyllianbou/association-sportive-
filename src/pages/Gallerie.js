@@ -2,14 +2,13 @@ import "../css/Gallerie.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-const Club = () => {
+const Gallerie = () => {
 
     return (
         <>
             <Nav />
             <div className="body">
-          <h1>presentation de la Famille..
-          </h1>
+          <h1>presentation de la Famille.. </h1>
             <img src='images/Homme.png' alt='photo de kayak' />
             <img src='images/lesputes.jpeg' alt='photo de kayak' />
             <img src='images/salope.jpeg' alt='photo de kayak' />
@@ -19,14 +18,6 @@ const Club = () => {
             <img src='images/Homme.png' alt='photo de kayak' />
             <img src='images/femme.png' alt='photo de kayak' />
             <img src='images/Homme.png' alt='photo de kayak' />
-            <img src='images/Homme.png' alt='photo de kayak' />
-            <img src='images/Homme.png' alt='photo de kayak' />
-            <img src='images/Homme.png' alt='photo de kayak' />
-            <img src='images/Homme.png' alt='photo de kayak' />
-            <img src='images/Homme.png' alt='photo de kayak' />
-            <img src='images/Homme.png' alt='photo de kayak' />
-               
-                
             </div>
             <Footer />
         </>
@@ -36,4 +27,4 @@ const Club = () => {
 
 };
 
-export default Club;
+export default Gallerie;
