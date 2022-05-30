@@ -37,7 +37,7 @@ const Nav = () => {
                         <li><NavLink to="/Home" className='link-item'>accueil</NavLink></li>
                         <li><NavLink to="/Club" className='link-item'>association</NavLink></li>
                         <li><NavLink to="/Services" className='link-item'>services</NavLink></li>
-                        <li><NavLink to="/Gallerie" className='link-item'>gallerie</NavLink></li>
+                        <li><NavLink to="/Galerie" className='link-item'>gallerie</NavLink></li>
                         <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
                     </ul>
                     <NavLink to="/Login" className='connexion'>login/sign in</NavLink>

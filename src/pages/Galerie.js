@@ -7,9 +7,11 @@ const Galerie = () => {
 
     return (
         <>
+            <div className='head'>
             <Nav />
-            <div className="bod">
           <h1>presentation de la Famille..</h1>
+        </div>
+            <div className="bod">
             <img src='images/Homme.png' alt='photo de kayak' />
             <img src='images/lesputes.jpeg' alt='photo de kayak' />
             <img src='images/salope.jpeg' alt='photo de kayak' />
