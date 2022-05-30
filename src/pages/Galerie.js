@@ -8,7 +8,7 @@ const Galerie = () => {
     return (
         <>
             <Nav />
-            <div className="body">
+            <div className="bod">
           <h1>presentation de la Famille..</h1>
             <img src='images/Homme.png' alt='photo de kayak' />
             <img src='images/lesputes.jpeg' alt='photo de kayak' />
