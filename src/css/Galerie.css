@@ -16,9 +16,10 @@
     grid-template-columns: repeat(1fr,1fr, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    gap: 60px;
+    gap: 20px;
     padding: 2em;
-    top: 60px;
+    max-width: 100%;
+    padding-left: 16%;
 }
 .bod img{
     max-width: 90%;
@@ -26,14 +27,14 @@
 .bod h1{
     text-align: center;
 }
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 500px) {
     .bod{
         display: grid;
-        grid-template-columns: repeat(2 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
-        gap: 60px;
+        gap: 40px;
         padding: 2em;
-        top: 60px;
+        padding-left: 8%;
     }
 }
