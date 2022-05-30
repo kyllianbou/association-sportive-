@@ -8,7 +8,8 @@ const Club = () => {
         <>
             <Nav />
             <div className="body">
-          
+          <h1>presentation de la Famille..
+          </h1>
             <img src='images/Homme.png' alt='photo de kayak' />
             <img src='images/lesputes.jpeg' alt='photo de kayak' />
             <img src='images/salope.jpeg' alt='photo de kayak' />
