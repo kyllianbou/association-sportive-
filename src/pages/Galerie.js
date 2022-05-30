@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Gallerie.css";
+import "../css/Galerie.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
