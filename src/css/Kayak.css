@@ -4,12 +4,23 @@
     height: 100vh;
     background-size: cover;
     display: block;
+    
 }
  .heade h1{
     color: white;
     text-align: center;
     padding-top: 300px;
+    text-shadow: 0px 0px 4px #777;
 }
 article img {
     max-width: 90%;
+}
+
+.heade .navbar .nav-links li a {
+    color: rgb(131, 127, 127);
+
+}
+
+.heade .navbar a {
+    color: rgb(131, 127, 127);
 }
