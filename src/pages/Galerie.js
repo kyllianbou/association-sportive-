@@ -1,14 +1,15 @@
+import React from 'react';
 import "../css/Gallerie.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-const Gallerie = () => {
+const Galerie = () => {
 
     return (
         <>
             <Nav />
             <div className="body">
-          <h1>presentation de la Famille.. </h1>
+          <h1>presentation de la Famille..</h1>
             <img src='images/Homme.png' alt='photo de kayak' />
             <img src='images/lesputes.jpeg' alt='photo de kayak' />
             <img src='images/salope.jpeg' alt='photo de kayak' />
@@ -27,4 +28,4 @@ const Gallerie = () => {
 
 };
 
-export default Gallerie;
+export default Galerie;
