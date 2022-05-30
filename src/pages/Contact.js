@@ -3,6 +3,7 @@ import '../css/contact.css';
 import { AiFillPhone, AiFillMail } from 'react-icons/ai';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import Form from '../components/Form';
 
 
 const Contact = () => {
@@ -54,6 +55,7 @@ const Contact = () => {
           <p>benbahlouli.nahim@gmail.com</p>
         </section>
       </article>
+      <Form/>
       <Footer />
     </>
   );

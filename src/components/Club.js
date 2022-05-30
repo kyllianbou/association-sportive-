@@ -1,6 +1,7 @@
 import "../css/club.css"
 import Nav from "./Nav"
 import Footer from "./Footer";
+import React from 'react';
 const Club = () => {
 
     return (
