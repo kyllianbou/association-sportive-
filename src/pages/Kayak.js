@@ -16,6 +16,7 @@ const Contact = () => {
                 <img src='images/Homme.png' alt='photo de kayak' />
             <h1 id='color' >Equipes Femmes Du Club</h1> 
             <img src='images/Femme.png' alt='photo de kayak' /></article>
+            < Footer/>
         </>
     );
 }

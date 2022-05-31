@@ -17,6 +17,7 @@ const Contact = () => {
                 <img src='images/debut.png' alt='photo de pagaie' />
                 <img src='images/fin.png' alt='photo de pagaie' />
             </div>
+            < Footer/>
         </>
     );
 }
