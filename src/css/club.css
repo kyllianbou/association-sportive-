@@ -4,32 +4,32 @@
     outline: red;
 }
 
-.body {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(8, 8, 8);
+.club {
+    color: #333;
     height: 100vh;
     width: 100%;
-    line-height: 1.6;
+    line-height: 2.5em;
     font-size: 1rem;
 }
 
-.body h2 {
+.club h2 {
     text-decoration: underline solid orange;
     text-underline-offset: 0.25em;
+    padding-bottom: 2em;
 }
 
-.body a {
+.club a {
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 0.5px;
     color: #222;
 }
 
-.body a:visited {
+.club a:visited {
     color: unset;
 }
 
-section {
+.club section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,8 +39,28 @@ section {
     width: 100%;
 }
 
-.body p {
-    padding: 2em 0;
+.club a {
+    margin-top: 2em;
+}
+
+.club button {
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.club button:hover {
+    color: orange;
+    transition: ease 0.5s;
+}
+
+.link-item .btn_clair {
+    background-color: #333;
+    color: #fff;
 }
 
 .club h1 {
@@ -54,13 +74,14 @@ section {
 
 .ecole,
 .service {
-    background-color: rgb(173, 173, 173);
+    background-color: #444;
+    color: rgba(255, 255, 255, 0.9);
 }
 
-.body img {
+.club img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: #666 3px 4px 5px 0px;
+    box-shadow: #333 3px 4px 5px 0px;
     height: auto;
     width: auto;
     display: flex;
@@ -70,7 +91,6 @@ section {
 .container {
     display: flex;
     margin: auto;
-
 }
 
 .d-flex {
@@ -87,7 +107,8 @@ section {
     justify-content: center;
 }
 
-.grid__item {
+.grid__item,
+.presentation {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -98,6 +119,17 @@ section {
 
 .club {
     background: url('../../public/images/kaya-club.png') no-repeat center center/cover;
+}
+
+@media screen and (max-width: 600px) {
+    
+    #wallpaper {
+        height: 100vh;
+    }
+
+    .club section {
+        height: fit-content;
+    }
 }
 
 @media screen and (min-width:600px) {
@@ -122,10 +154,6 @@ section {
         padding: 3rem;
     }
 
-    .grid__item p {
-        padding: 2em;
-    }
-
     .grid__item.right {
         order: 1;
     }
@@ -134,7 +162,7 @@ section {
         order: 2;
     }
 
-    .body p {
+    .club p {
         max-width: 600px;
     }
 

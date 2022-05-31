@@ -45,11 +45,10 @@
 }
 
 .services p {
-    width: 50%;
-    text-align: center;
-    font-size: 1.1em;
-    line-height: 4em;
-    color: #161413;
+    color: #333;
+    max-width: 600px;
+    line-height: 2.5em;
+    font-size: 1rem;
 }
 
 .services .infos {

@@ -1,14 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.login nav{
+.login nav {
     background-color: rgb(26, 26, 26);
 }
 
-.box{
+.box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -19,7 +19,7 @@
 
 
 
-.box article{
+.box article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,7 +29,9 @@
     height: 500px;
 }
 
-.box article input[type=text], .box input[type=password], .box input[type=email]{
+.box article input[type=text],
+.box input[type=password],
+.box input[type=email] {
     width: 600px;
     border-radius: 50px;
     margin: 15px auto;
@@ -38,21 +40,21 @@
     background-color: #cecece;
     border: none;
     outline: none;
-    box-shadow: 0px 2px rgba(0,0,0,.3);
+    box-shadow: 0px 2px rgba(0, 0, 0, .3);
 }
 
-.box article h2{
+.box article h2 {
     border-bottom: solid 3px rgb(241, 164, 21);
 }
 
-.trait{
+.trait {
     background-color: #cecece;
     height: 450px;
     width: 5px;
     border-radius: 5px;
 }
 
-.login button{
+.login button {
     width: 150px;
     height: 40px;
     margin: 15px auto;
@@ -65,38 +67,55 @@
 
 }
 
-.login button:hover{
+.login button:hover {
     background-color: rgb(241, 164, 21);
     color: #fff;
     cursor: pointer;
+    transform: none;
 }
 
-.resaux-sociaux{
+.resaux-sociaux {
     width: 100%;
     display: flex;
     justify-content: space-around;
     padding-top: 160px;
     font-size: 30px;
-    
+
 }
 
-.login a i{
-    transition: all .3s ease-in-out;
+.login a i {
+    transition: all .6s ease-in-out;
+    animation-fill-mode: forwards;
     padding: 10px;
     color: #cecece;
 }
 
-.login a i:hover{
-    transform: rotate(360deg);
-    color:rgb(241, 164, 21);
+.login a i:hover {
+    transform: rotate(360deg) scale(1.5);
+    background-image: linear-gradient(45deg,
+            hsl(45deg 100% 50%) 0%,
+            hsl(42deg 100% 50%) 8%,
+            hsl(39deg 100% 50%) 17%,
+            hsl(36deg 100% 50%) 25%,
+            hsl(33deg 100% 50%) 33%,
+            hsl(30deg 100% 50%) 42%,
+            hsl(27deg 100% 50%) 50%,
+            hsl(25deg 100% 50%) 58%,
+            hsl(22deg 100% 50%) 67%,
+            hsl(18deg 100% 50%) 75%,
+            hsl(15deg 100% 50%) 83%,
+            hsl(10deg 100% 50%) 92%,
+            hsl(0deg 100% 50%) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 
-.insc{
+.insc {
     padding-top: 0px;
 }
 
-input.check-me{
+input.check-me {
     width: 15px;
     height: 15px;
     margin: 5px;
@@ -109,8 +128,8 @@ input.check-me{
 
 
 
-@media screen and (max-width:1271px){
-    .box article{
+@media screen and (max-width:1271px) {
+    .box article {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -119,12 +138,12 @@ input.check-me{
         width: 300px;
         height: 500px;
     }
-    
-    
+
+
 }
 
-@media screen and (max-width:600px){
-    .box article{
+@media screen and (max-width:600px) {
+    .box article {
         padding-top: 70px;
         display: flex;
         flex-wrap: wrap;
@@ -134,10 +153,12 @@ input.check-me{
         width: 90%;
         height: 500px;
     }
-    .login nav{
+
+    .login nav {
         background-color: transparent;
     }
-    .trait{
+
+    .trait {
         display: none;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 import Slide from './pages/Slide';
-import Club from './components/Club';
+import Club from './pages/Club';
 import Login from './pages/Login';
 import Profil from './pages/Profil';
 import Services from './pages/Services';
