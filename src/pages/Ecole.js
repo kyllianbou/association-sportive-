@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Ecole.css';
 import Nav from '../components/Nav'
+import Footer from '../components/Footer';
 
 
 const Contact = () => {
