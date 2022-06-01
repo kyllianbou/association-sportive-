@@ -26,6 +26,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 const bd = getFirestore(app);
+
 // const analytics = getAnalytics(app);
 
 
@@ -39,16 +40,8 @@ export function signup(email, password,nom, prenom) {
         displayName: nom+" "+prenom,
       })
     }
+    
     })
-   //    .then(async(res) =>{
-//        console.log(res.user)
-//        const user = res.user;
-//        await updateProfile(user, {
-//            displayName: nom,
-           
-//        });
-//        console.log(auth)
-//    })
    .catch((err) =>{
        console.log(err)
    });

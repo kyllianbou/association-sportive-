@@ -4,6 +4,7 @@ import '../css/login.css';
 import {signup,login,logout, useAuth} from "../firebase"
 import {useRef,useState} from "react"
 import { async } from '@firebase/util';
+import { useNavigate } from "react-router-dom";
 
 
 const Login = () => {
@@ -14,6 +15,7 @@ const Login = () => {
     const passwordRef = useRef();
     const nom = useRef();
     const prenom = useRef();
+    const navigate = useNavigate();
 
 
     async function handleSignup() {
@@ -23,6 +25,7 @@ const Login = () => {
         }catch(error){
             alert(error)
         }
+        navigate("/");
         setLoading(false);
     }
 
@@ -34,6 +37,7 @@ const Login = () => {
        } catch{
            alert("error");
        }
+       navigate("/");
        setLoading(false);
     }
 
@@ -44,6 +48,7 @@ const Login = () => {
         }catch{
             alert("error")
         }
+        navigate("/");
         setLoading(false);
     }
 
