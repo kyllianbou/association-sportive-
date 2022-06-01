@@ -12,6 +12,13 @@
     font-size: 1rem;
 }
 
+.club h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .club h2 {
     text-decoration: underline solid orange;
     text-underline-offset: 0.25em;
@@ -74,12 +81,7 @@
 
 .ecole,
 .service {
-<<<<<<< HEAD
     background-color: rgb(223, 223, 223);
-=======
-    background-color: #444;
-    color: rgba(255, 255, 255, 0.9);
->>>>>>> origin/remy_dev
 }
 
 .club img {

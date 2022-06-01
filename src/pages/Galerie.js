@@ -14,7 +14,7 @@ const Galerie = () => {
         <>
             <div className='head'>
             <Nav />
-          <h1>GALERIE</h1>
+          <h1 className='titre-galerie'>GALERIE</h1>
         </div>
             <div className="bod">
             <img src='images/thibault.jpg' alt='photo de kayak' />

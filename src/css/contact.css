@@ -130,7 +130,6 @@
     background-color: rgb(241, 164, 21);
     color: #fff;
 }
-<<<<<<< HEAD
 @media screen and (max-width: 700px) {
 
     .art1 {
@@ -158,19 +157,5 @@
     }
     .toto{
         padding-left:12% ;
-=======
-
-@media screen and ( max-width : 966px ) {
-    .toto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 3em 0;
-        gap: 3em;
-    }
-    .contact input[type='text'], .contact input[type='email'], .contact input[type='password'], .contact input[type='tel'] {
-        min-width: 5em;
->>>>>>> origin/remy_dev
     }
 }

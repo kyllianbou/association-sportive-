@@ -3,19 +3,12 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-<<<<<<< HEAD
     display: block;
     
-=======
-    display: flex;
-    justify-content: center;
-    align-items: center;
->>>>>>> origin/remy_dev
 }
  .heade h1{
     color: white;
     text-align: center;
-<<<<<<< HEAD
     padding-top: 300px;
     text-shadow: 0px 0px 4px #777;
 }
@@ -30,10 +23,4 @@ article img {
 
 .heade .navbar a {
     color: rgb(131, 127, 127);
-=======
-}
-
-.heade nav ul.nav-links li .link-item, .heade .connexion, .heade .brand {
-    color: #333;
->>>>>>> origin/remy_dev
 }

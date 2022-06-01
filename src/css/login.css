@@ -143,7 +143,6 @@ input.check-me {
 
 }
 
-<<<<<<< HEAD
 @media screen and (max-width:600px){
     .box{
         display: flex;
@@ -155,10 +154,6 @@ input.check-me {
     }
     
     .box article{
-=======
-@media screen and (max-width:600px) {
-    .box article {
->>>>>>> origin/remy_dev
         padding-top: 70px;
         display: flex;
         flex-wrap: wrap;
