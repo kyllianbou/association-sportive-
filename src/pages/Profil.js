@@ -23,7 +23,6 @@ const Profil = () => {
                     <a href=''>plat favoris : Hamburger</a>
                 </article>
             </div>
-            <Footer/>
         </div>
     );
 };
