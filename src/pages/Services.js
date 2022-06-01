@@ -12,7 +12,7 @@ const Services = () => {
         <div className="services">
             <Nav />
             <header className="services_header">
-                <h1>Nos services</h1>
+                <h1>SERVICES</h1>
             </header>
             <article>
                 <section className="services_presentation">

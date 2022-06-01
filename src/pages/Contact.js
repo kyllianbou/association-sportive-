@@ -45,7 +45,7 @@ const Contact = () => {
         <section className='art4' >
           <h2>Contact</h2>
           < AiFillPhone />
-          <p>0658690678</p>
+          <p>06 58 69 06 78</p>
           < AiFillMail />
           <p>benbahlouli.nahim@gmail.com</p>
         </section>
