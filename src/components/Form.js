@@ -8,7 +8,7 @@ function Form() {
   }
   return (
       
-      <form onSubmit={handleSubmit} className='fomulaire-contact'>
+      <form onSubmit={handleSubmit} className='fomulaire-contact contact'>
             <input className='prenom' type="text" placeholder="Prénom" />
             <input className='nom' type="text" placeholder="Nom" />
             <input className='tel' type="tel" placeholder="N° de téléphone" />
@@ -18,6 +18,7 @@ function Form() {
         type="email" 
         name="email"
         placeholder="Adresse@mail.com"
+        className='mail'
       />
       <ValidationError 
         prefix="Email" 
@@ -28,13 +29,14 @@ function Form() {
         id="message"
         name="message"
         placeholder="Message"
+        className='commentaire'
       />
       <ValidationError 
         prefix="Message" 
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting} className='envoi'>
         Envoyer
       </button>
       
