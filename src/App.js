@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 import Slide from './pages/Slide';
 import Club from './components/Club';
@@ -9,8 +9,23 @@ import Contact from './pages/Contact';
 import Ecole from './pages/Ecole';
 import Kayak from './pages/Kayak';
 import './css/all.css';
+import React, { useEffect, useState } from "react";
+import { getAuth} from "firebase/auth"
+
+
 
 const App = () => {
+    const [userName, setUserName] = useState("");
+    const auth = getAuth();
+
+    useEffect(() => {
+      auth.onAuthStateChanged((user) => {
+        if (user) {
+          setUserName(user.displayName);
+        
+        } else setUserName("");
+      });
+    }, []);
     return (
         <> 
         <Router>
