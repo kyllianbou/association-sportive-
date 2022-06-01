@@ -13,6 +13,17 @@
    top: 0;
    background-color: transparent;
    transition: 1s;
+   animation: slide_down 0.5s ease-out;
+ }
+
+ @keyframes slide_down {
+   from {
+     transform: translateY(-50px)
+   }
+
+   to {
+     transform: translateY(0);
+   }
  }
 
  nav.active {
@@ -33,25 +44,48 @@
  nav ul.nav-links li .link-item,
  .brand,
  .connexion {
+   position: relative;
    text-decoration: none;
    padding: 20px;
    color: #fff;
    text-transform: uppercase;
    display: block;
    font-weight: bold;
-   transition: all .3s ease-in-out;
+   transition: all 0.25s ease-in-out;
  }
 
  nav ul.nav-links li .link-item:hover,
  .brand:hover,
  .connexion:hover {
-   color: rgb(241, 164, 21);
+   color: orange;
  }
+
+ nav ul.nav-links li .link-item:hover:after {
+  transform: scaleX(1);
+ }
+
+ nav ul.nav-links li .link-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 20px;
+  height: 3px;
+  bottom: .5em;
+  left: 0;
+  background-color: orange;
+  transition: transform 0.25s ease-out;
+ }
+
 
  Menu.burger,
  #react-burger-menu-btn,
  .bm-burger-bars {
    display: none;
+ }
+
+ nav.bm-item {
+   display: flex;
  }
 
  @media screen and (max-width: 967px) {

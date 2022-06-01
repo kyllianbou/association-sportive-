@@ -54,6 +54,18 @@
     background-position: center;
 }
 
+#kayak {
+    background-image: url("../img/kayak.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ecole {
+    background-image: url(http://localhost:3000/static/media/bonnefemme.822f3931e08fe7ee3642.png);
+    background-size: cover;
+    background-position: center;
+}
+
 #contact {
     background-image: url("../img/contact_bg.png");
     background-size: cover;
@@ -75,7 +87,7 @@
     font-size: 2em;
     z-index: 99;
     list-style-type: none;
-    gap: 30px;
+    gap: 2em;
 }
 
 .numbers li {
@@ -88,17 +100,19 @@
     padding: 0;
     opacity: 0.6;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 500;
     color: #fff;
     cursor: pointer;
+    transition: 0.25s ease;
+    text-shadow: #333 0 0 4px;
 }
 
 .number:hover {
     opacity: 1;
 }
 
-.number.active {
+.number.actif {
     opacity: 1;
-    font-size: 1.4em;
+    font-size: 1.9em;
 }

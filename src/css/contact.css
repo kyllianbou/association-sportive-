@@ -11,7 +11,10 @@
 .headder h1 {
     color: white;
     text-align: center;
+    font-size: 3rem;
 }
+
+
 
 .toto {
     display: grid;
@@ -19,7 +22,16 @@
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     gap: 160px;
-    padding: 2em;
+    padding: 3em;
+}
+
+.toto h2 {
+    color: #161413;
+    font-size: 2em;
+    margin: 1em;
+    text-align: center;
+    text-decoration: underline solid orange;
+    text-underline-offset: 0.25em;
 }
 
 .art1 {
@@ -56,10 +68,9 @@
 .liste_adresse {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100%;
-    width: 80%;
+    width: 100%;
     list-style-type: none;
     gap: 1em;
 }
@@ -118,4 +129,18 @@
 .contact input[type='submit']:hover {
     background-color: rgb(241, 164, 21);
     color: #fff;
+}
+
+@media screen and ( max-width : 966px ) {
+    .toto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3em 0;
+        gap: 3em;
+    }
+    .contact input[type='text'], .contact input[type='email'], .contact input[type='password'], .contact input[type='tel'] {
+        min-width: 5em;
+    }
 }
