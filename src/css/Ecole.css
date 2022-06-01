@@ -48,6 +48,8 @@
 
 }
 
+
+
 @media screen and (min-width:800px) {
     #ttph {
         display: flex;
@@ -69,10 +71,13 @@
     #ttph {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     #ttph img {
         width: 590px;
         height: 590px;
+        
     }
 }
