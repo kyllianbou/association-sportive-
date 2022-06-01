@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Ecole.css';
 import Nav from '../components/Nav'
+import Footer from '../components/Footer';
 
 
 const Contact = () => {
@@ -17,6 +18,7 @@ const Contact = () => {
                 <img src='images/debut.png' alt='photo de pagaie' />
                 <img src='images/fin.png' alt='photo de pagaie' />
             </div>
+            < Footer/>
         </>
     );
 }
