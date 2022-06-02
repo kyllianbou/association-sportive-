@@ -47,7 +47,8 @@ const Nav = () => {
                         <li><NavLink to="/Galerie" className='link-item'>galerie</NavLink></li>
                         <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
                     </ul>
-                    <NavLink to="/Login" className='connexion'>connexion</NavLink>
+                    {!currentUser && <NavLink to="/Login" className='connexion'>Connexion</NavLink>}
+                {currentUser && <NavLink to="/Profil" className='connexion'>{currentUser?.displayName}</NavLink>}
                 </nav>
             </Menu>
         </>
