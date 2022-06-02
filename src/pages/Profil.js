@@ -2,18 +2,20 @@ import React from 'react';
 import Nav from '../components/Nav';
 import '../css/profil.css';
 import {logout, useAuth} from "../firebase"
+import { useNavigate } from "react-router-dom";
 
 const Profil = () => {
     const currentUser = useAuth();
+    const navigate = useNavigate();
     async function handleLogOut() {
        
        try {
            await logout();
            
-       } catch{
+           navigate("/");
+       } catch(err){
            alert("error");
        }
-      
     }
     return (
         <>
@@ -23,7 +25,7 @@ const Profil = () => {
                 <article className='name'>
                     <a href='https://fr-fr.facebook.com/'><div className="avatar"></div></a>
                     <h2>{currentUser?.displayName}</h2>
-                    <h4>année de création : 2 juin 2020</h4>
+                    <h4>année de création : {currentUser?.metadata.creationTime}</h4>
                     <button onClick={handleLogOut} className="deconnexion">DECONNEXION</button>
                 </article>
                 <span className="trait"></span>

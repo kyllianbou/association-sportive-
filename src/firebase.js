@@ -1,17 +1,9 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
 import { getAuth, createUserWithEmailAndPassword,onAuthStateChanged,signInWithEmailAndPassword, signOut,updateProfile} from "firebase/auth"
 import { useEffect,useState } from "react";
-
 import {getFirestore} from 'firebase/firestore';
-import { async } from "@firebase/util";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyA_6v7_7eghJrZbfHYy-XUKcHKIZ6XaQsA",
   authDomain: "kyak-polo.firebaseapp.com",
@@ -27,12 +19,12 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 const bd = getFirestore(app);
 
-// const analytics = getAnalytics(app);
+
 
 
 
 export function signup(email, password,nom, prenom) {
-    console.log(nom)
+    
    return createUserWithEmailAndPassword(auth,email,password)
    .then((userCredentials)=>{
     if(userCredentials.user){
@@ -63,7 +55,7 @@ export function logout(){
 }
 
 export function login(email, password){
-    
-   return signInWithEmailAndPassword(auth,email,password)
+
+   return signInWithEmailAndPassword(auth,email,password);
 
 }

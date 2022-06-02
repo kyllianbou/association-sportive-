@@ -74,6 +74,13 @@
     transform: none;
 }
 
+.login .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #ff3300;
+    text-align: center;
+}
+
 .resaux-sociaux {
     width: 100%;
     display: flex;
