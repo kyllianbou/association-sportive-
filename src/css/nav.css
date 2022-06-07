@@ -40,6 +40,7 @@
 
  nav ul.nav-links li {
    list-style-type: none;
+   text-shadow: 0 0 10px #333;
  }
 
  nav ul.nav-links li .link-item,
@@ -53,6 +54,7 @@
    display: block;
    font-weight: bold;
    transition: all 0.25s ease-in-out;
+   text-shadow: 0 0 10px #333;
  }
 
  nav ul.nav-links li .link-item:hover,
