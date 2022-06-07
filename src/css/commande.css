@@ -1,0 +1,38 @@
+.he{
+    height: 70px;
+    background-image: url('../img/home_bg.png');
+}
+.tout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 35px;
+    border-left: 1px black solid;
+    position:relative;
+}
+
+.tout::before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    height: 80%;
+    width: 3px;
+    background-color: #333;
+}
+.tout::after {
+    content: '';
+    position: absolute;
+    right: 70px;
+    height: 80%;
+    width: 3px;
+    background-color: #333;
+}
+.prix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

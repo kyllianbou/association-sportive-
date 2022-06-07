@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css/panier.css';
-import Nav from '../components/Nav';
+import Navp from '../components/Navp';
 import { NavLink } from 'react-router-dom';
 
-const Slide = () => {
+const Panier = () => {
 
     function ActiveClick(e) {
         let active = document.getElementsByClassName('actif');
@@ -15,7 +15,7 @@ const Slide = () => {
 
     return (
         <div className="slide_container">
-            <Nav />
+            <Navp />
             <ul className="numbers">
                 <li>
                     <a className='number one actif' id="number one" href="#asso" onClick={ActiveClick}>1</a>
@@ -43,4 +43,4 @@ const Slide = () => {
     )
 }
 
-export default Slide;
+export default Panier;

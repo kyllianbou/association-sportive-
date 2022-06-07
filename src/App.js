@@ -9,6 +9,8 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Ecole from './pages/Ecole';
 import Kayak from './pages/Kayak';
+import Panier from './pages/Panier';
+import Commande from './pages/Commande';
 import './css/all.css';
 
 const App = () => {
@@ -25,6 +27,8 @@ const App = () => {
                     <Route path='/Kayak' element={<Kayak/>}></Route>
                     <Route path='/Services' element={<Services/>}></Route>
                     <Route path='/Galerie' element={<Galerie/>}></Route>
+                    <Route path='/Panier' element={<Panier/>}></Route>
+                    <Route path='/Commande' element={<Commande/>}></Route>
                 </Routes>
         </Router>
         </>
