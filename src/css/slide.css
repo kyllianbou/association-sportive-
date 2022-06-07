@@ -88,6 +88,7 @@
     z-index: 99;
     list-style-type: none;
     gap: 2em;
+    user-select: none;
 }
 
 .numbers li {
