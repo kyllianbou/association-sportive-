@@ -4,6 +4,7 @@ import Slide from './pages/Slide';
 import Club from './components/Club';
 import Login from './pages/Login';
 import Profil from './pages/Profil';
+import Galerie from './pages/Galerie';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Ecole from './pages/Ecole';
@@ -23,6 +24,7 @@ const App = () => {
                     <Route path='/Ecole' element={<Ecole/>}></Route>
                     <Route path='/Kayak' element={<Kayak/>}></Route>
                     <Route path='/Services' element={<Services/>}></Route>
+                    <Route path='/Galerie' element={<Galerie/>}></Route>
                 </Routes>
         </Router>
         </>
