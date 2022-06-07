@@ -49,6 +49,9 @@
     max-width: 600px;
     line-height: 2.5em;
     font-size: 1rem;
+    text-align: justify;
+    text-align-last: center;
+    padding: 2em;
 }
 
 .services .infos {

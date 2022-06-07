@@ -12,7 +12,7 @@
     padding-top: 300px;
 }
 
-#toto {
+#ecole_pagaie {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,13 +21,41 @@
     text-align: center;
 }
 
-#toto p {
-    padding: 5% 0% 5% 0%;
-    font-size: x-small;
+#ecole_pagaie {
+    padding: 3em;
 }
 
-#ttph {
-    padding-left: 48px;
+#ecole_pagaie p {
+    max-width: 600px;
+    color: #333;
+    line-height: 2.5em;
+    font-size: 1rem;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#ecole_pagaie h2 {
+    text-decoration: underline solid orange;
+    text-underline-offset: 0.25em;
+    padding-bottom: 2em;
+    font-size: 2rem;
+}
+
+#ecole_pagaie section {
+    padding: 3em;
+}
+
+#rangs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em;
+}
+
+#rangs img {
+    height: 30em;
 }
 
 #texte {
@@ -44,35 +72,13 @@
     text-decoration-line: underline;
     text-decoration-color: rgb(241, 164, 21);
     text-decoration-style: 6px;
-
-
 }
 
-@media screen and (min-width:800px) {
-    #ttph {
-        display: flex;
-        flex-direction: row;
+@media screen and (max-width: 1390px) {
+    #ecole_pagaie {
+        padding: 2em;
     }
-
-    #ttph img {
-        width: 390px;
-        height: 390px;
-    }
-
-    #toto p {
-        padding: 5% 0% 5% 0%;
-        font-size: large;
-    }
-}
-
-@media screen and (min-width:1050px) {
-    #ttph {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #ttph img {
-        width: 590px;
-        height: 590px;
+    #rangs img {
+        height: 20em;
     }
 }

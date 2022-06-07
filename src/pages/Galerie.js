@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Galerie.css";
+import "../css/galerie.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
@@ -12,30 +12,27 @@ const Galerie = () => {
     }
     return (
         <>
-            <div className='head'>
             <Nav />
-          <h1>presentation de la Famille..</h1>
+            <div className='head'>
+          <h1>Galerie</h1>
         </div>
             <div className="bod">
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <img src='images/thibault.jpg' alt='photo de kayak' />
-            <button onClick={setImageVisible}>c'est moi Thibault</button>
-            <img  id='thibault' src='images/thibault_leboss.jpg' alt='photo de thibault'/>
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <img src='images/thibault.jpg' alt='Equipe de kayak' />
+            <button id="easter" onClick={setImageVisible}>c'est moi Thibault</button>
+            <img  id='thibault' src='images/thibault_leboss.jpg' alt='thibault'/>
             </div>
             <Footer />
         </>
     );
-
-
-
 };
 
 export default Galerie;
