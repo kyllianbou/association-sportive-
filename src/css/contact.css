@@ -130,6 +130,10 @@
     background-color: rgb(241, 164, 21);
     color: #fff;
 }
+
+.merci{
+    text-align: center;
+}
 @media screen and (max-width: 700px) {
 
     .art1 {

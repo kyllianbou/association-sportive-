@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 function Form() {
   const [state, handleSubmit] = useForm("mzbookqd");
   if (state.succeeded) {
-      return <p>Nous vous contacterons prochainement</p>;
+      return <p className='merci'>Merci de nous avoir contactés ! Nous vous répondrons dans les plus brefs délais.</p>;
   }
   return (
       
