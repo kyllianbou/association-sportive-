@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/slide.css';
 import Nav from '../components/Nav';
 import { NavLink } from 'react-router-dom';
+import Basket from '../components/Basket';
 
 const Slide = () => {
 
@@ -15,6 +16,7 @@ const Slide = () => {
     return (
         <div className="slide_container">
             <Nav />
+            <Basket />
             <ul className="numbers">
                 <li>
                     <a className='number one actif' id="number one" href="#asso" onClick={ActiveClick}>1</a>

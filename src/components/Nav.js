@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom';
 import '../css/nav.css';
 import { slide as Menu } from 'react-burger-menu';
 import { updateCurrentUser } from 'firebase/auth';
-import { getAuth} from "firebase/auth"
-import { useAuth} from "../firebase"
+import { getAuth } from "firebase/auth";
+import { useAuth } from "../firebase";
+
 const Nav = () => {
     const currentUser = useAuth();
     const [navbar, setNavbar] = useState(false);
@@ -19,7 +20,7 @@ const Nav = () => {
 
     window.addEventListener('scroll', changeBackground);
 
- 
+
 
     return (
         <>
@@ -32,11 +33,11 @@ const Nav = () => {
                     <li><NavLink to="/Galerie" className='link-item'>galerie</NavLink></li>
                     <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
                 </ul>
-                
+
                 {!currentUser && <NavLink to="/Login" className='connexion'>Connexion</NavLink>}
                 {currentUser && <NavLink to="/Profil" className='connexion'>{currentUser?.displayName}</NavLink>}
 
-                </nav>
+            </nav>
             <Menu className='burger'>
                 <nav>
                     <NavLink to="/" className='brand'>ckcg avion</NavLink>
@@ -48,7 +49,7 @@ const Nav = () => {
                         <li><NavLink to="/Contact" className='link-item'>contact</NavLink></li>
                     </ul>
                     {!currentUser && <NavLink to="/Login" className='connexion'>Connexion</NavLink>}
-                {currentUser && <NavLink to="/Profil" className='connexion'>{currentUser?.displayName}</NavLink>}
+                    {currentUser && <NavLink to="/Profil" className='connexion'>{currentUser?.displayName}</NavLink>}
                 </nav>
             </Menu>
         </>

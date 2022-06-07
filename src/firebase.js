@@ -1,8 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword,onAuthStateChanged,signInWithEmailAndPassword, signOut,updateProfile} from "firebase/auth"
-import { useEffect,useState } from "react";
-import {getFirestore} from 'firebase/firestore';
+import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth"
+import { useEffect, useState } from "react";
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyA_6v7_7eghJrZbfHYy-XUKcHKIZ6XaQsA",
@@ -23,39 +23,39 @@ const bd = getFirestore(app);
 
 
 
-export function signup(email, password,nom, prenom) {
-    
-   return createUserWithEmailAndPassword(auth,email,password)
-   .then((userCredentials)=>{
-    if(userCredentials.user){
-      updateProfile(userCredentials.user,{
-        displayName: nom+" "+prenom,
-      })
-    }
-    
+export function signup(email, password, nom, prenom) {
+
+  return createUserWithEmailAndPassword(auth, email, password)
+    .then((userCredentials) => {
+      if (userCredentials.user) {
+        updateProfile(userCredentials.user, {
+          displayName: nom + " " + prenom,
+        })
+      }
+
     })
-   .catch((err) =>{
-       console.log(err)
-   });
+    .catch((err) => {
+      console.log(err)
+    });
 };
 
 //custom hook
 
-export function useAuth(){
-    const [currentUser, setCurrentUser] = useState();
-    useEffect(() => {
-      const unsub=  onAuthStateChanged(auth,user =>  setCurrentUser(user));
-      return unsub;
-    },[])
-    return currentUser;
+export function useAuth() {
+  const [currentUser, setCurrentUser] = useState();
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, user => setCurrentUser(user));
+    return unsub;
+  }, [])
+  return currentUser;
 }
 
-export function logout(){
-    return signOut(auth);
+export function logout() {
+  return signOut(auth);
 }
 
-export function login(email, password){
+export function login(email, password) {
 
-   return signInWithEmailAndPassword(auth,email,password);
+  return signInWithEmailAndPassword(auth, email, password);
 
 }
