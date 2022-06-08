@@ -3,6 +3,7 @@ import '../css/contact.css';
 import { AiFillPhone, AiFillMail } from 'react-icons/ai';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import Form from '../components/Form';
 
 
 const Contact = () => {
@@ -32,12 +33,7 @@ const Contact = () => {
         <section className='art2'>
           <h2>Formulaire de contact</h2>
           <div className='contact'>
-            <input className='prenom' type="text" placeholder="Prénom" />
-            <input className='nom' type="text" placeholder="Nom" />
-            <input className='mail' type="email" id="email" name="email" autoComplete="email" aria-required="true" aria-invalid="true" placeholder="exemple@mail.fr" />
-            <input className='tel' type="tel" placeholder="N° de téléphone" />
-            <textarea type="text" placeholder="Commentaire" className='commentaire' id='commentaire' />
-            <input type="submit" value="Envoyer" />
+            <Form/>
           </div>
         </section>
         <section className='art3'>
@@ -50,11 +46,12 @@ const Contact = () => {
         <section className='art4' >
           <h2>Contact</h2>
           < AiFillPhone />
-          <p>0658690678</p>
+          <p>06 58 69 06 78</p>
           < AiFillMail />
           <p>benbahlouli.nahim@gmail.com</p>
         </section>
       </article>
+      
       <Footer />
     </>
   );

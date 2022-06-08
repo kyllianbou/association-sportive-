@@ -13,11 +13,11 @@
 }
 
 .basket.actif {
-    animation: grow 1s ease-in-out forwards;
+    animation: grow .4s ease-in-out forwards;
 }
 
 .basket.non-actif {
-    animation: shrink 1s ease-in-out forwards;
+    animation: shrink .4s ease-in-out forwards;
 }
 
 @keyframes shrink {
@@ -46,12 +46,12 @@
 
 .basket svg.actif {
     transform: rotate(-360deg);
-    transition: 1s ease-in-out;
+    transition: .4s ease-in-out;
 }
 
 .basket svg.non-actif {
     transform: rotate(0deg);
-    transition: 1s ease-in-out;
+    transition: .4s ease-in-out;
 }
 
 .basket .txt_panier {
@@ -66,11 +66,11 @@
 }
 
 .basket .txt_panier.non-actif {
-    animation: disappear-right 1s ease-in-out forwards;
+    animation: disappear-right .4s ease-in-out forwards;
 }
 
 .basket .txt_panier.actif {
-    animation: appear-right 1s ease-in-out forwards;
+    animation: appear-right .4s ease-in-out forwards;
 }
 
 @keyframes appear-right {

@@ -91,7 +91,7 @@
 }
 
 .login a i {
-    transition: all .6s ease-in-out;
+    transition: all .4s ease-in-out;
     animation-fill-mode: forwards;
     padding: 10px;
     color: #cecece;
